@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt/br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="https://cdn-icons-png.flaticon.com/512/522/522506.png" alt="iconecalc">
+        <h1> Calculadora Simples </h1>
+    </header>
+
+    <div id="form" class="form">
+        <input class="inputnumer1" type="number" id="n1" placeholder="Digite o primeiro número">
+            <br><br>
+            <select id="selector"> 
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+
+        <br><br>
+
+        <input class="inputnumer2" type="number" id="n2" placeholder="Digite o segundo número">
+        <br><br>
+
+        <button onclick="calcular()">Calcular</button>
+    </div>
+
+    <div>
+        <h3 id="resultado"></h3>
+    </div>
+
+    <footer class="footer">
+       Calculadora Simples - Feito por: Suzyany Alves.
+    </footer>
+
+<script src="script/script.js"></script>
+
+</body>
+</html>
